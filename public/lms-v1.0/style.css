@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'lms';
+  src:  url('fonts/lms.eot?g2g08y');
+  src:  url('fonts/lms.eot?g2g08y#iefix') format('embedded-opentype'),
+    url('fonts/lms.ttf?g2g08y') format('truetype'),
+    url('fonts/lms.woff?g2g08y') format('woff'),
+    url('fonts/lms.svg?g2g08y#lms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="lms-"], [class*=" lms-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lms' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lms-home:before {
+  content: "\e900";
+}
+.lms-user:before {
+  content: "\e971";
+}
+.lms-eye:before {
+  content: "\e9ce";
+}
+.lms-eye-blocked:before {
+  content: "\e9d1";
+}
